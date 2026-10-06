@@ -14,7 +14,9 @@
 
 ## What it does
 
-A Claude Code plugin that ships a custom output style and stops Claude from burying the answer. Action first. Steps numbered. No "Hope this helps!" The style applies automatically while the plugin is enabled.
+A Claude Code plugin and Pi package that stop the agent from burying the answer. Action first. Steps numbered. No "Hope this helps!" The style applies automatically while the integration is enabled.
+
+Pi loads the style through an extension that adds the existing rules to a structured system-prompt section before each agent turn. The Claude Code output style remains the source of truth.
 
 
 ## What changes

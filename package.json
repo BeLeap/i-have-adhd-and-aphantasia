@@ -1,0 +1,9 @@
+{
+  "name": "i-have-adhd-and-aphantasia",
+  "version": "0.2.1",
+  "description": "ADHD and aphantasia friendly output shaping for Pi.",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["extensions/i-have-adhd.ts"]
+  }
+}

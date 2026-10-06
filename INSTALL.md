@@ -49,3 +49,29 @@ rm -f ~/.claude/.i-have-adhd-always
 ```
 
 (Use `$CLAUDE_CONFIG_DIR/.i-have-adhd-always` if you moved your config dir.)
+
+## Pi
+
+### Install
+
+If you installed the earlier `ayghri/i-have-adhd` Pi package, remove it first to avoid loading both rule sets:
+
+```bash
+pi remove https://github.com/ayghri/i-have-adhd
+```
+
+Install the Pi package from this fork:
+
+```bash
+pi install git:github.com/BeLeap/i-have-adhd-and-aphantasia
+```
+
+Pi loads the extension automatically. The extension adds the existing output-style rules to Pi's structured system prompt before every agent turn.
+
+Run `/reload` in an open Pi session after installing or updating the package.
+
+### Remove
+
+```bash
+pi remove git:github.com/BeLeap/i-have-adhd-and-aphantasia
+```
