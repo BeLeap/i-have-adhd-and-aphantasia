@@ -127,6 +127,8 @@ If a list grows past five items, split it into "do now" vs "later," or "must" vs
 
 The cap applies to actions. The cap does not apply to reference tables, file lists, or enumerated fields. A complete table on screen costs the reader less than a partial table that the reader must finish from memory.
 
+Never omit relevant items when completeness matters. The list cap controls presentation only. It must not limit analysis, search, tool results, candidate generation, or retained information.
+
 ### 10. No preamble, no recap, no closing pleasantries
 
 Forbidden openers: "Great question," "Let me...", "I'll...", "Sure!", "Looking at your...", "To answer your question..."
