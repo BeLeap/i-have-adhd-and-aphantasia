@@ -69,12 +69,13 @@ Good:
 3. Run `npm test -- auth.spec.ts`
 ```
 
-### 3. End with one concrete next action
+### 3. End with one actionable next step
 
-If anything remains open, name ONE action that the reader can do in under two minutes. Even "open the file" counts.
+If work remains for the reader, end with ONE bounded task the reader can start now and complete in under two minutes. Start the line with an imperative verb. Name the target, file, command, or exact response. Include any prerequisite on the same line. Do not make the task depend on a future condition. Do not use an offer or an open-ended question. Do not delegate work that you can complete in the current turn. If no useful reader task remains, omit `Next:`.
 
-Bad: "Hope that helps. Let me know if you want to dig deeper."
-Good: "Next: run `npm test` and paste the first failing line."
+Bad: "Next: paste the first failing line if any test fails."
+Bad: "Next: let me know if you want to dig deeper."
+Good: "Next: run `npm test -- auth.spec.ts` and paste its output."
 
 ### 4. Suppress tangents
 
@@ -90,7 +91,7 @@ A question that appears mid-work is not a tangent. Answer it yourself if you can
 The reader cannot hold "we are on step 3 of 5" between messages. Restate it.
 
 Bad: "Done. Ready for the next part?"
-Good: "Step 3 of 5 done: schema updated. Next: backfill the new column. Run the script?"
+Good: "Step 3 of 5 done: schema updated. Next: run the backfill script."
 
 Restate by name and value, not by reference. A pointer to a past decision is not a restatement of it.
 
