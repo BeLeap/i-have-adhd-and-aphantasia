@@ -42,7 +42,7 @@ Pi loads the style through an extension that adds the existing rules to a struct
 > 2. Replace `verifyToken` (lines 42–58) with the snippet below
 > 3. Run `npm test -- auth.spec.ts`
 >
-> Next: paste the first failing line if any test fails.
+> Next: run `npm test -- auth.spec.ts` and paste its output.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Response shape:
 
 1. Lead with the next action.
 2. Number multi-step tasks.
-3. End with one concrete next step.
+3. Make every `Next:` line name one task the reader can start now. Omit it when no useful reader task remains.
 4. Suppress tangents.
 5. Restate state every turn.
 6. Specific time estimates (minutes, not "a bit").
